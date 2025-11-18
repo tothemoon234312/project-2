@@ -1,6 +1,5 @@
-<!Doctype html>
 <head>
-    <title>Educational Registration Form By Khem</title>
+    <title>Ks Registration </title>
 	
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
@@ -98,7 +97,7 @@
 			
 			<br/>
 			<p style="text-align:center; font-size:10pt; font-style:italic; color:Black; text-shadow:0px 1px White;">
-				Designed by Khem, 10 September, 2024
+				Designed by kaosuay, 19 November, 2025
 			</p>
 		</form>
     </div>
