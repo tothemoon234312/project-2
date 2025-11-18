@@ -62,11 +62,13 @@
 	<div class="main-block">
 		<div class="left-part">
 			<i class="fas fa-graduation-cap"></i>
-			<h1>Register to our courses</h1>
-			<p>EP-KKW provides free learning materials for programming languages like PHP, Python, JavaScript, HTML, CSS, etc.</p>
+			<h1>Register for</h1>
+			<p>Just my test for homepage things</p>
 			<div class="btn-group">
-				<a class="btn-item" href="http://epkkw.com" target="_blank">Learn HTML</a>
-				<a class="btn-item" href="http://epkkw.com" target="_blank">Select Quiz</a>
+				<a class="btn-item" href="https://www.pluralsight.com/courses/html-fundamentals?b2c-courses=&utm_source=google&utm_medium=paid-search&utm_campaign=b2c-apac-all-con-pur-gle-paid_search-evg-dsa&utm_term=&utm_content=free-trial&gad_source=1&gad_campaignid=22511026468&gbraid=0AAAAADmVFQYvmETK3EZil68qX3AVM2DL7&gclid=CjwKCAiAz_DIBhBJEiwAVH2XwCKRO3Hl9qXgWt2lVLlIy9tG48NnmgKSmKk3uJz3qvL3EQvmn5QfwhoCACkQAvD_BwE" target="_blank">Learn HTML</a>
+				<a class="btn-item" href="http://epkkw.com
+                
+                " target="_blank">Select Quiz</a>
 			</div>
 		</div>
 		<form>
@@ -79,24 +81,15 @@
 				<input type="text" name="email" placeholder="Email Address" required>
 				<input type="text" name="phone" placeholder="Phone Number" maxlength="10">
 				<input type="password" name="pwd" placeholder="Password" required>
-				<select name="course">
-					<option value="course-type">Course type*</option>
-					<option value="short-courses">Short courses</option>
-					<option value="featured-courses">Featured courses</option>
-					<option value="undergraduate">Undergraduate</option>
-					<option value="diploma" selected>Diploma</option>
-					<option value="certificate">Certificate</option>
-					<option value="masters-degree">Masters degree</option>
-					<option value="postgraduate">Postgraduate</option>
-				</select>
+				
 			</div>
 			<div class="checkbox">
-				<input type="checkbox" name="agree" checked required><span>I agree to the <a href="http://epkkw.com" target="_blank">Privacy Policy for EP-KKW.</a></span>
+				<input type="checkbox" name="agree" checked required><span>I agree to the instruction that i provide</span>  
 			</div>
 			<input type="submit" value="Submit">
 			
 			<br/>
-			<p style="text-align:center; font-size:10pt; font-style:italic; color:Black; text-shadow:0px 1px White;">
+			<p style="text-align:center; font-size:10pt; font-style:Sans-serif; color:whilte;">
 				Designed by kaosuay, 19 November, 2025
 			</p>
 		</form>
