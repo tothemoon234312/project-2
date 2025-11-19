@@ -1,15 +1,11 @@
 <head>
     <title>Ks Registration </title>
 	
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+   
     <style>
       html, body {min-height: 100%;}
       body, div, form, input, select, p {padding: 0; margin: 0; outline: none; font-family: Roboto, Arial, sans-serif; font-size: 16px; color: #eee;}
-      body {
-      background: url("/uploads/media/default/0001/01/b5edc1bad4dc8c20291c8394527cb2c5b43ee13c.jpeg") no-repeat center;
-      background-size: cover;
-      }
+      
       h1, h2 {text-transform: uppercase; font-weight: 400;}
       h2 {margin: 0 0 0 8px;}
       .main-block {
@@ -17,9 +13,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 100%;
       padding: 25px;
-      background: rgba(0, 0, 0, 0.5); 
+      background: #B0B3D6; 
       }
       .left-part, form {padding: 25px;}
       .left-part {text-align: center;}
@@ -60,21 +55,11 @@
 
 <body>
 	<div class="main-block">
-		<div class="left-part">
-			<i class="fas fa-graduation-cap"></i>
-			<h1>Register for</h1>
-			<p>Just my test for homepage things</p>
-			<div class="btn-group">
-				<a class="btn-item" href="https://www.pluralsight.com/courses/html-fundamentals?b2c-courses=&utm_source=google&utm_medium=paid-search&utm_campaign=b2c-apac-all-con-pur-gle-paid_search-evg-dsa&utm_term=&utm_content=free-trial&gad_source=1&gad_campaignid=22511026468&gbraid=0AAAAADmVFQYvmETK3EZil68qX3AVM2DL7&gclid=CjwKCAiAz_DIBhBJEiwAVH2XwCKRO3Hl9qXgWt2lVLlIy9tG48NnmgKSmKk3uJz3qvL3EQvmn5QfwhoCACkQAvD_BwE" target="_blank">Learn HTML</a>
-				<a class="btn-item" href="http://epkkw.com
-                
-                " target="_blank">Select Quiz</a>
-			</div>
-		</div>
+		
+			<div class="btn-group"></div>
 		<form>
 			<div class="title">
-				<i class="fas fa-pencil-alt"></i> 
-				<h2>Register here</h2>
+				<h2><span>Register here<ion-icon name="person-circle"></ion-icon></span></h2>
 			</div>
 			<div class="info">
 				<input type="text" name="fullname" placeholder="Full Name" required>
@@ -84,16 +69,17 @@
 				
 			</div>
 			<div class="checkbox">
-				<input type="checkbox" name="agree" checked required><span>I agree to the instruction that i provide</span>  
+				<input type="checkbox" name="agree"  required><span>remember me</span>  
 			</div>
 			<input type="submit" value="Submit">
 			
 			<br/>
-			<p style="text-align:center; font-size:10pt; font-style:Sans-serif; color:whilte;">
-				Designed by kaosuay, 19 November, 2025
+			<p style="text-align:left; font-size:10pt; font-style:Sans-serif; color:#787CB5;">
+				Designed by kaosuay
 			</p>
 		</form>
     </div>
-
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
