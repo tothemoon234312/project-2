@@ -54,7 +54,7 @@ text-align:justify;}
 .container {
  display: flex;
   justify-content: center;
-  aligh-items: center;
+  align-items: center;
   margin-top: -50px;
 }
 
@@ -76,21 +76,7 @@ text-align:justify;}
   z-index: 10;
   width: 80%;
 }
-  @media (min-width: 568px) {
-        html, body {
-            height: 100%;
-        }
-
-        .main-block {
-            flex-direction: row;
-            height: calc(100% - 50px);
-        }
-
-        .left-part, form {
-            flex: 1;
-            height: auto;
-        }
-    }
+  
 </style>
 </head>
 
