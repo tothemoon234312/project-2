@@ -1,167 +1,147 @@
-
 <html>
 <head>
-    <title>Ks Registration</title>
+<style>
+     
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #CFC0C0;
+}
+h1 {color:#2a52be; 
+font-family:sans-serif; 
+font-size:28pt; 
+text-align:center; 
+text-shadow: 3px 3px 6px #8c92ac;
+}
+p  {font-family:sans-serif;
+font-size: 12pt; 
+color:#000000; 
+text-align:justify;}
 
-    <style>
+.navbar {
+  overflow: hidden;
+  background-color: rgba(43, 72, 147,0.4); 
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: rgba(43, 72, 147,0);
+}
+
+
+.active {
+  background-color: #09256f;
+  color: white;
+}
+
+.card {
+  background-color: #FFEFED;
+  padding: 20px;
+  margin: 20px 5px;
+}
+.container {
+ display: flex;
+  justify-content: center;
+  aligh-items: center;
+  margin-top: -50px;
+}
+
+.container_bg img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.image-text {
+  position: absolute;
+  top: 30%;            
+  left: 50%;            
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 4px 4px 5px black;
+  text-align: center;
+  z-index: 10;
+  width: 80%;
+}
+  @media (min-width: 568px) {
         html, body {
-            min-height: 100%;
-        }
-
-        body, div, form, input, select, p {
-            padding: 0;
-            margin: 0;
-            outline: none;
-            font-family: Roboto, Arial, sans-serif;
-            font-size: 16px;
-            color: #eee;
-        }
-
-        h1, h2 {
-            text-transform: uppercase;
-            font-weight: 400;
-        }
-
-        h2 {
-            margin: 0 0 0 8px;
+            height: 100%;
         }
 
         .main-block {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 25px;
-            background: #B0B3D6;
+            flex-direction: row;
+            height: calc(100% - 50px);
         }
 
         .left-part, form {
-            padding: 25px;
+            flex: 1;
+            height: auto;
         }
-
-
-        form {
-            background: rgba(0, 0, 0, 0.7);
-        }
-
-        .title {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        .info {
-            display: flex;
-            flex-direction: column;
-        }
-
-        input, select {
-            padding: 5px;
-            margin-bottom: 30px;
-            background: transparent;
-            border: none;
-            border-bottom: 1px solid #eee;
-        }
-
-        input::placeholder {
-            color: #eee;
-        }
-
-        option {
-            background: black;
-            border: none;
-        }
-
-        .checkbox input {
-            margin: 0 10px 0 0;
-            vertical-align: middle;
-        }
-
-        .checkbox a:hover {
-            color: #85d6de;
-        }
-
-        .btn-item, input[type=submit], input[type=reset] {
-            padding: 10px 5px;
-            margin-top: 20px;
-            border-radius: 5px;
-            border: none;
-            background: #26a9e0;
-            text-decoration: none;
-            font-size: 15px;
-            font-weight: 400;
-            color: #fff;
-        }
-
-        .btn-item {
-            display: inline-block;
-            margin: 20px 5px 0;
-        }
-
-        input[type=submit], input[type=reset] {
-            width: 100%;
-        }
-
-        input[type=submit]:hover,
-        input[type=reset]:hover,
-        .btn-item:hover {
-            background: #85d6de;
-        }
-
-        @media (min-width: 568px) {
-            html, body {
-                height: 100%;
-            }
-
-            .main-block {
-                flex-direction: row;
-                height: calc(100% - 50px);
-            }
-
-            .left-part, form {
-                flex: 1;
-                height: auto;
-            }
-        }
-    </style>
+    }
+</style>
 </head>
 
 <body>
-    <div class="main-block">
 
-        <form>
-            <div class="title">
-                <h2>
-                    <span>Register here <ion-icon name="person-circle"></ion-icon></span>
-                </h2>
-            </div>
-
-            <div class="info">
-                <input type="text" name="fullname" placeholder="Full Name" required>
-                <input type="text" name="email" placeholder="Email Address" required>
-                <input type="text" name="phone" placeholder="Phone Number" maxlength="10">
-                <input type="password" name="pwd" placeholder="Password" required>
-            </div>
-
-            <div class="checkbox">
-                <input type="checkbox" name="agree" required>
-                <span>Remember me</span>
-            </div>
-
-            <input type="submit" value="Submit">
-
-            <br>
-
-            <p style="text-align:left; font-size:10pt; color:#787CB5;">
-                Designed by kaosuay
-            </p>
-
-        </form>
+	<div class="navbar">
+        <a class="active" href="https://tothemoon234312.github.io/project-2/">Login</a>
+        <a class="active" href="https://tothemoon234312.github.io/my-project-1/">home</a>
+        <a class="active" href="#">scammer</a>
     </div>
+      <div class="container">
+        <div class="container_bg">
+            <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                 alt="hacker image">
+                 
+                <div class="image-text"> Be Safe From Online Scammers
+    </div>
+  </div>
+        </div>
+   
 
-    <!--  -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+   <div class="card">
+    <h1> What is the purpose for the website?</h1>
+      <p style="font-size: 22px;">This website is made to help people understand online scams and stay safe. It teaches users how scammers trick people on the internet, shows common warning signs, and gives tips on how to protect themselves. The goal is to make everyone more aware so they don’t fall for scams.</p>
+    </div>
+ 
+  <div>
+    <div class="card">
+      <h1>Online scammers increasing</h1>
+      <div>
+      </div>
+      <p style="font-size:22px;">Online scams are rising quickly around the world, and experts are warning people to stay alert as scammers use more advanced tricks to steal personal information and money.
+      </p>
+      <p style="font-size:22px;">According to recent reports, cybercriminals are creating fake websites, sending phishing emails, and pretending to be banks, delivery companies, or government officers. Their goal is to trick victims into giving away important information such as passwords, ID numbers, and bank details.</p>
+      <p style="font-size:22px;">Because cybercrime is becoming widespread, we need to stay informed and aware of online threats.</p>
+      <p></p>
+      </div>
+    </div>
+    
+    <div class="card">
+      <h1 style="max-width: 600px; margin: 0 auto;">Why we need to stay informed?</h1>
+     
+      <p style="font-size:22px;">Cybercrime is increasing every year, and anyone can be targeted such as students, adults, the elderly, and even companies. Scammers usually focus on people who do not understand online dangers, which makes it easier for them to steal information or money.
+      </p>
+      <p style="font-size:22px;">This is why it is important to understand how scams work, be able to recognize suspicious messages or fake websites, and protect our devices and personal information. We also need to think carefully before clicking any link or sharing any data online. By staying informed, we can reduce the risk of becoming a victim and help keep others safe as well.</p>
+    </div>
+ 
+ 
+
 
 </body>
 </html>
+
