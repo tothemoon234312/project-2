@@ -5,9 +5,10 @@
 
     <style>
         html, body {
-        min-height: 100%;
+            min-height: 100%;
         }
- body, div, form, input, select, p {
+
+body, div, form, input, select, p {
             padding: 0;
             margin: 0;
             outline: none;
@@ -15,15 +16,17 @@
             font-size: 16px;
             color: #eee;
         }
+
 h1, h2 {
             text-transform: uppercase;
             font-weight: 400;
         }
- h2 {
+
+h2 {
             margin: 0 0 0 8px;
         }
 
-.main-block {
+        .main-block {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -31,6 +34,7 @@ h1, h2 {
             padding: 25px;
             background: #B0B3D6;
         }
+
 .left-part, form {
             padding: 25px;
         }
@@ -40,7 +44,7 @@ form {
             background: rgba(0, 0, 0, 0.7);
         }
 
-        .title {
+.title {
             display: flex;
             align-items: center;
             margin-bottom: 20px;
@@ -58,6 +62,7 @@ input, select {
             border: none;
             border-bottom: 1px solid #eee;
         }
+
 input::placeholder {
             color: #eee;
         }
@@ -70,6 +75,10 @@ option {
 .checkbox input {
             margin: 0 10px 0 0;
             vertical-align: middle;
+        }
+
+.checkbox a {
+            color: #26a9e0;
         }
 
 .checkbox a:hover {
@@ -103,16 +112,17 @@ option {
             background: #85d6de;
         }
 
- @media (min-width: 568px) {
+        @media (min-width: 568px) {
             html, body {
                 height: 100%;
             }
- .main-block {
+
+            .main-block {
                 flex-direction: row;
                 height: calc(100% - 50px);
             }
 
-.left-part, form {
+            .left-part, form {
                 flex: 1;
                 height: auto;
             }
@@ -122,6 +132,8 @@ option {
 
 <body>
     <div class="main-block">
+
+        <div class="btn-group"></div>
 
         <form>
             <div class="title">
@@ -151,11 +163,11 @@ option {
             </p>
 
         </form>
-	</div>
+    </div>
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
-
 
